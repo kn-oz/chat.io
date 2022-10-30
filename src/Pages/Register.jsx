@@ -104,7 +104,7 @@ export default function Register() {
         </form>
         <p className="text-xs text-white m-3">
           {" "}
-          Already have an account? <Link className="hover:text-purple" to="/login">Login</Link>
+          Already have an account? <Link className="hover:text-purple" to="/chat.io/login">Login</Link>
         </p>
       </div>
     </div>

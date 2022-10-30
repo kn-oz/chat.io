@@ -31,7 +31,7 @@ export default function Login() {
                 <button className='bg-purple hover:bg-purpledark text-white p-3 font-bold border-none cursor-pointer rounded-md'>Log In</button>
                 {error && <span className='text-red'>Something went wrong</span>}
             </form>
-            <p className='text-xs text-white m-3'>Don't have an account? <Link className='hover:text-purple' to='/register'>Register</Link></p>
+            <p className='text-xs text-white m-3'>Don't have an account? <Link className='hover:text-purple' to='/chat.io/register'>Register</Link></p>
         </div>
     </div>
   )
